@@ -17,9 +17,9 @@ const numbs = [
 let sum = 0;
 for (let i = 0; i < numbs.length; i++) {
    if (i % 2 != 0) {
-      console.log(`posizione ${i} numero ${numbs[i]} sommato`)
+      console.log(`posizione ${i} numero ${numbs[i]} sommato`);
       sum += numbs[i];
    }
 }
 console.log(`somma totale posizioni dispari ${sum}`);
-alert(`somma totale posizioni dispari ${sum}`)
+alert(`somma totale posizioni dispari ${sum}`);
